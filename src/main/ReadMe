@@ -1,0 +1,12 @@
+Prerequisite for executing UserManagement_security Module in Eclipse IDE.
+1. Execute "Database Script" if you run this module first time. This Database Script placed at UserManagement_security\src folder.
+2.Modify hibernate.properties according to your dbconnection setup
+3. Update your valid GMail Id and its password in the below mentioned method.
+
+Package:-com.epicproportionstour.controller
+Class :- LoginController.java
+Method :- addNewUser()
+
+Variables :-
+String sSenderEmailId = "GMail Email ID"; // Valid Gmail account ID
+String sSenderPassword = "Password";// Corresponding Password.
